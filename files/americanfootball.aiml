@@ -1,0 +1,41 @@
+<aiml version="2.0">
+<topic name="American Football">
+  <category>
+    <pattern>^ NFL ^</pattern>
+    <template>
+      The NFL (National Football League) is the biggest and most prestigious American football league in the world. With 32 teams, intense rivalries, and the Super Bowl as its grand finale, it attracts millions of fans worldwide.
+      <br/>Do you want to learn more:
+      <br/>- Best Players
+      <br/>- Best Teams
+    </template>
+  </category>
+
+  <category>
+    <pattern>^ PFL ^</pattern>
+    <template>
+      The Polska Futbol Liga (PFL) is the top American football league in Poland, growing in popularity every year. It's great to see the sport expanding! 
+      <br/>Do you want to learn more:
+      <br/>- Best Players
+      <br/>- Best Teams
+    </template>
+  </category>
+
+  <category>
+    <pattern>^ ELF ^</pattern>
+    <template>
+      The European League of Football (ELF) is bringing American football to a new level in Europe, with competitive teams from multiple countries. 
+      <br/>Do you want to learn more:
+      <br/>- Best Players
+      <br/>- Best Teams
+    </template>
+  </category>
+  
+  
+  <category>
+    <pattern>*</pattern>
+    <template>
+      Sorry, I didn't catch that. Can you say again?
+    </template>
+  </category>
+</topic>
+</aiml>

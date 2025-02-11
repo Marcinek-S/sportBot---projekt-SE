@@ -1,0 +1,71 @@
+<aiml version="2.0">
+    
+    <category>
+  <pattern>^ fact ^</pattern>
+  <template>
+    Fun Sport <set name="topic">fact</set>!<br/>
+    <random>
+        <li>The longest golf putt ever made was 375 feet (114 meters) at the 2001 PGA Tour event in Las Vegas.</li>
+        <li>In bowling, the perfect game is a score of 300, achieved by getting 12 strikes in a row.</li>
+        <li>The longest recorded billiards shot was 120 feet (36.5 meters), made by player Raymond Ceulemans in 1984.</li>
+        <li>The highest score ever in a game of darts is 180, which can be achieved by throwing three treble 20s in a row.</li>
+        <li>The fastest recorded punch in boxing was thrown by Amir Khan at 45 mph (72 km/h) during a training session.</li>
+        <li>The NBA's all-time leading scorer is Kareem Abdul-Jabbar with 38,387 points.</li>
+        <li>The fastest touchdown in NFL history was scored in 4 seconds by the Chicago Bears' Devin Hester in 2006.</li>
+        <li>The longest volleyball match ever played lasted 85 hours in 2009, played between teams in Germany.</li>
+        <li>The fastest goal in soccer history was scored in just 2.8 seconds by Tom Miller in 2017.</li>
+        <li>The longest professional baseball game in history lasted 33 innings and took 8 hours and 25 minutes to complete in 1981 between the Pawtucket Red Sox and the Rochester Red Wings.</li>
+        <li>In golf, Tiger Woods became the youngest player to win a major at the 1997 Masters at just 21 years old.</li>
+        <li>The most strikes ever in a single bowling game is 12, making it a perfect 300 game.</li>
+        <li>The world record for the most 180s in darts was set by Phil Taylor with 1,200 in his career.</li>
+        <li>In boxing, the longest fight on record was 7 hours and 19 minutes, held between Jack Broughton and Tom Molineaux in 1810.</li>
+        <li>The fastest basketball dunk in NBA history was recorded by Michael Jordan at 46 inches in height during a 1987 game.</li>
+        <li>The first American football game was played in 1869 between Princeton and Rutgers universities.</li>
+        <li>The longest volleyball rally in history lasted 36 minutes between two teams in a 2011 match in Italy.</li>
+        <li>The most goals scored by a player in a World Cup match is 5, achieved by Just Fontaine in 1958 for France.</li>
+        <li>The longest baseball game by time in MLB history was 8 hours and 6 minutes, played between the Boston Red Sox and the Chicago White Sox in 2006.</li>
+        <li>In football (soccer), the fastest red card in history was given just 2 seconds into a match, in a game between Lee Todd and Taunton in 2000.</li>
+    </random>
+    <br/>Another one? (yes/no)
+  </template>
+</category>
+<topic name="fact">
+<category>
+  <pattern>^ yes ^</pattern>
+  <template>
+    Another fact!<br/>
+    <random>
+      <li>The longest drive in golf history was hit by Mike Austin, measuring 510 yards (466 meters) at the 1974 US National Seniors Open.</li>
+      <li>The most strikes in a row in professional bowling is 39, a record set by the legendary professional bowler, Danny Wiseman.</li>
+      <li>In billiards, the longest game of 3-cushion billiards lasted 8 hours and 16 minutes, played in 1983.</li>
+      <li>The most 180s ever hit in a single darts match is 41, set by Raymond van Barneveld in 2005.</li>
+      <li>The longest boxing match ever recorded was 110 rounds, held between Jack Burke and Andy Bowen in 1893.</li>
+      <li>Michael Jordan scored 69 points in a single game against the Cleveland Cavaliers in 1990, setting a personal record.</li>
+      <li>The most consecutive NFL championships won is 3, achieved by the Green Bay Packers in 1965, 1966, and 1967.</li>
+      <li>The longest volleyball game played under international rules lasted 5 hours and 31 minutes in a 2014 match between Poland and Brazil.</li>
+      <li>The fastest soccer goal scored by a goalkeeper came from Peter Schmeichel, who netted a goal in a UEFA Cup match in 2001.</li>
+      <li>In baseball, the longest home run ever hit was 582 feet (177 meters) by Mickey Mantle in 1953.</li>
+      <li>Golf legend Jack Nicklaus holds the record for the most major championships won, with 18 career victories.</li>
+      <li>The highest score in a single 10-pin bowling game ever recorded was 900, achieved by three perfect games in a row by a team in 2017.</li>
+      <li>The largest payout in billiards history was $1.5 million, awarded to the winner of the 2016 World Pool-Billiard Association World Championship.</li>
+      <li>The fastest recorded dart throw was completed in 0.6 seconds by a professional player in 2014.</li>
+      <li>In boxing, Muhammad Ali's famous "Rumble in the Jungle" fight against George Foreman in 1974 lasted 8 rounds.</li>
+      <li>In NBA history, the most points scored in a single game by a player is 100, achieved by Wilt Chamberlain in 1962.</li>
+      <li>The longest NFL touchdown pass on record was 99 yards, thrown by Peyton Manning in 2003.</li>
+      <li>In volleyball, the longest recorded volleyball rally in the Olympics lasted for 22 minutes between teams in the 2016 Summer Games.</li>
+      <li>The fastest soccer penalty kick ever recorded was taken by Brazilian soccer player Ronny Heberson, reaching a speed of 131 mph (211 km/h).</li>
+      <li>The longest professional baseball game by distance was played at 500 miles (800 km), involving teams in 1981 in the minor leagues.</li>
+    </random>
+    <br/>Another one? (yes/no)
+  </template>
+</category>
+
+<category>
+  <pattern>^ no ^</pattern>
+  <template>
+    <set name="topic"></set>  
+    Maybe you want to talk about sport ?<br/>Do you prefer playing solo or in team?
+  </template>
+</category>
+</topic>
+</aiml>

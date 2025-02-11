@@ -1,0 +1,52 @@
+<aiml version="2.0">
+    <topic name="SOLO">
+        <category>
+          <pattern>^ GOLF ^</pattern>
+          <template>
+            <set name="topic"><set name="sport">Golf</set></set> is a sport that requires precision, patience, and strategy. Whether you're practicing your swing or competing in a tournament, it’s a great way to challenge yourself. Do you prefer playing for fun or in tournaments?
+          </template>
+        </category>
+    
+        <category>
+          <pattern>^ DARTS ^</pattern>
+          <template>
+           <set name="sport">Darts</set> is all about precision and hand-eye coordination. Many legendary players have mastered the game. 
+           <br/>Do you want to learn more:
+           <br/>- Best Players
+          </template>
+        </category>
+    
+        <category>
+          <pattern>^ BILARD ^</pattern>
+          <template>
+            <set name="sport">Bilard</set> (or pool) is a game of skill, accuracy, and tactical thinking. There are some types of Bilard for exampple classic 8-ball matches the challenge of snooker
+            <br/>Do you want to learn more:
+           <br/>- Best Players
+          </template>
+        </category>
+  
+        <category>
+          <pattern>^ BOWLING ^</pattern>
+          <template>
+              <set name="topic"><set name="sport">Bowling</set></set> is a fun and competitive solo sport where technique and precision are key. Do you aim for strikes, or are you more focused on consistent scoring?
+          </template>
+        </category>
+  
+        <category>
+          <pattern>^ BOXING ^</pattern>
+          <template>
+              <set name="sport">Boxing</set> is an intense and physically demanding sport that requires discipline and strength. 
+              <br/>Do you want to learn more:
+           <br/>- Best Players
+          </template>
+        </category>
+    
+        <category>
+          <pattern>*</pattern>
+          <template>
+            Sorry, I didn't catch that. Could you specify which solo sport interests you the most?
+          </template>
+        </category>
+    </topic>
+  </aiml>
+  

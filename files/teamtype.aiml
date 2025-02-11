@@ -1,0 +1,52 @@
+<aiml version="2.0">
+  <topic name="TEAM">
+     <category>
+    <pattern>^ basketball ^</pattern>
+    <template>
+      <set name="topic"><set name="sport">Basketball</set></set> is all about speed, precision, and teamwork. Do you prefer playing streetball or professional-style matches?
+    </template>
+  </category>
+
+  <category>
+    <pattern>^ american football ^</pattern>
+    
+    <template>
+      <set name="topic"><set name="sport">American Football</set></set> is an exciting sport! Which league do you follow the most? NFL (National Football League), PFL (Polska Futbol Liga), ELF (European League of Football), or another top league?
+    </template>
+  </category>
+
+  <category>
+    <pattern>^ volleyball ^</pattern>
+    <template>
+      <set name="sport">Volleyball</set> requires agility and coordination. You can play beach volleyball, indoor matches or just playing normal matches outside
+      <br/>Do you want to learn more:
+      <br/>- Best Players
+      <br/>- Best Teams
+    </template>
+  </category>
+
+  <category>
+    <pattern>^ soccer ^</pattern>
+    <template>
+      <set name="topic"><set name="sport">Soccer</set></set> is the world's most popular sport! Do you enjoy playing as a striker, midfielder, or defender?
+    </template>
+  </category>
+
+  <category>
+    <pattern>^ baseball ^</pattern>
+    <template>
+      <set name="sport">Baseball</set> is a game of skill and patience. You can batting, pitching, or fielding. Everyone will find best position for themselves.
+      <br/>Do you want to learn more:
+      <br/>- Best Players
+      <br/>- Best Teams
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <template>
+      Sorry, I didn't quite catch that. Could you specify which team sport interests you the most?
+    </template>
+  </category>
+  </topic>
+</aiml>

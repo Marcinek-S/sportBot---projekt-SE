@@ -1,0 +1,53 @@
+<aiml version="2.0">
+  
+  <category>
+      <pattern>^ hi ^</pattern>
+      <template>
+        Hello. I'm SportBot and I really like talking about sports. If you want some fun facts about sport just type "fun fact".
+        <br/>Do you prefer playing solo or in team?
+      </template>
+    </category>
+    
+    <category>
+      <pattern>^ hello ^</pattern>
+      <template>
+        Hello. I'm SportBot and I really like talking about sports. If you want some fun facts about sport just type "fun fact".
+        <br/>Do you prefer playing solo or in team?
+      </template>
+    </category>
+  
+    <category>
+      <pattern>^ hey ^</pattern>
+      <template>
+        Hello. I'm SportBot and I really like talking about sports. If you want some fun facts about sport just type "fun fact".
+        <br/>Do you prefer playing solo or in team?
+      </template>
+    </category>
+  
+
+  <category>
+    <pattern>^ solo ^</pattern>
+    <template>
+      <set name="topic"><set name="type">Solo</set></set> sports are more exhausting, which sport are you interested the most? Bilard, Golf, Darts, Bowling, Boxing
+    </template>
+  </category>
+
+  <category>
+    <pattern> ^ team ^ </pattern>
+    <template>
+      <set name="topic"><set name="type">Team</set></set> sports are all about strategy and teamwork! Do you prefer basketball, American football, volleyball, soccer, or baseball?
+    </template>
+  </category>
+  
+  <category>
+    <pattern>*</pattern>
+    <template>
+      Sorry, I didn't catch that. But maybe you want to talk about sport ?<br/>
+      I'm SportBot and I really like talking about sports. If you want some fun facts about sport just type "fun fact"
+        <br/>Do you prefer playing solo or in team?
+    </template>
+  </category>
+
+
+
+</aiml>

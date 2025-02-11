@@ -1,0 +1,138 @@
+<aiml version="2.0">
+
+    <category>
+        <pattern>^ players ^</pattern>
+        <template>
+          <condition name="type" value="Solo">
+            <condition name="sport" value="Golf">
+              Best Golf Players:<br/>
+              1.Tiger Woods<br/>
+              2.Jack Nicklaus<br/>
+              3.Rory McIlroy<br/>
+            </condition>
+            <condition name="type" value="Bowling">
+              Best Bowling Players:<br/>
+              1.Walter Ray Williams Jr.<br/>
+              2.Earl Anthony<br/>
+              3.Norm Duke<br/>
+              </condition>
+              <condition name="sport" value="Darts">
+                Best Darts Players:<br/>
+              1.Phil Taylor<br/>
+              2.Michael van Gerwen<br/>
+              3.Raymond van Barneveld<br/>
+              </condition>
+              <condition name="sport" value="Bilard">
+                Best Bilard Players:<br/>
+              1.Efren Reyes<br/>
+              2.Ronnie O'Sullivan<br/>
+              3.Shane Van Boening<br/>
+              </condition>
+              <condition name="sport" value="Boxing">
+                Best Boxing Players:<br/>
+              1.Muhammad Ali<br/>
+              2.Mike Tyson<br/>
+              3.Floyd Mayweather Jr.<br/>
+              </condition>
+
+          </condition>
+    
+          <condition name="type" value="Team">
+            <condition name="sport" value="American Football">
+              Best American Football Players:<br/>
+              1.Tom Brady<br/>
+              2.Jerry Rice<br/>
+              3.Peyton Manning<br/>
+              Do you want to know about something else:<br/>
+              - Best Teams
+            </condition>
+            <condition name="sport" value="Basketball">
+              Best Basketball Players:<br/>
+              1.Michael Jordan<br/>
+              2.LeBron James<br/>
+              3.Kobe Bryant<br/>
+              Do you want to know about something else:<br/>
+              - Best Teams
+            </condition>
+            <condition name="sport" value="Volleyball">
+              Best Volleyball Players:<br/>
+              1.Karch Kiraly<br/>
+              2.Giba<br/>
+              3.Ivan Zaytsev<br/>
+              Do you want to know about something else:<br/>
+              - Best Teams
+            </condition>
+            <condition name="sport" value="Soccer">
+              Best Soccer Players:<br/>
+              1.Robert Lewandowski<br/>
+              2.Cristiano Ronaldo<br/>
+              3.Lionel Messi<br/>
+              Do you want to know about something else:<br/>
+              - Best Teams
+            </condition>
+            <condition name="sport" value="Baseball">
+              Best Baseball Players:<br/>
+              1.Babe Ruth<br/>
+              2.Willie Mays<br/>
+              3.Hank Aaron<br/>
+              Do you want to know about something else:<br/>
+              - Best Teams
+            </condition>
+
+          </condition>
+    
+        </template>
+      </category>
+
+      <category>
+        <pattern>^ best teams ^</pattern>
+        <template>
+    
+          <condition name="sport" value="American Football">
+            Best American Football Teams:<br/>
+            1.New England Patriots<br/>
+            2.Pittsburgh Steelers<br/>
+            3.San Francisco 49ers<br/>
+            Do you want to know about something else:<br/>
+              - Best Players
+          </condition>
+          <condition name="sport" value="Basketball">
+            Best Basketball Teams:<br/>
+            1.Los Angeles Lakers<br/>
+            2.Boston Celtics<br/>
+            3.Chicago Bulls<br/>
+            Do you want to know about something else:<br/>
+              - Best Players
+          </condition>
+          <condition name="sport" value="Volleyball">
+            Best Volleyball Teams:<br/>
+            1.Itas Trentino<br/>
+            2.Zenit Kazań<br/>
+            3.Lube Civitanova<br/>
+            Do you want to know about something else:<br/>
+              - Best Players
+          </condition>
+          <condition name="sport" value="Soccer">
+            Best Soccer Teams:<br/>
+            1.FC Barcelona<br/>
+            2.Real Madryt<br/>
+            3.Manchester United<br/>
+            Do you want to know about something else:<br/>
+              - Best Players
+          </condition>
+          <condition name="sport" value="Baseball">
+            Best Baseball Teams:<br/>
+            1.New York Yankees<br/>
+            2.St. Louis Cardinals<br/>
+            3.Los Angeles Dodgers<br/>
+            Do you want to know about something else:<br/>
+              - Best Players
+          </condition>
+    
+
+          
+    
+        </template>
+      </category>
+
+</aiml>      

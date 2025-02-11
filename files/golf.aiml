@@ -1,0 +1,30 @@
+<aiml version="2.0">
+    <topic name="Golf">
+
+      <category>
+        <pattern>^ fun ^</pattern>
+        <template>
+            <set name="topic"><set name="sport">Golf</set></set> is a great way to relax and enjoy the game at your own pace.
+            <br/>Do you want to learn more:
+            <br/>- Best Players
+        </template>
+      </category>
+
+      <category>
+        <pattern>^ tournaments ^</pattern>
+        <template>
+            <set name="topic"><set name="sport">Golf</set></set> at a professional level demands skill, precision, and mental focus.
+            <br/>Do you want to learn more:
+            <br/>- Best Players
+        </template>
+      </category>
+      
+      
+      <category>
+        <pattern>*</pattern>
+        <template>
+          Sorry, I didn't catch that. Can you say again?
+        </template>
+      </category>
+    </topic>
+    </aiml>

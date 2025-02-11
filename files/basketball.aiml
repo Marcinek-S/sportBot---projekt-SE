@@ -1,0 +1,32 @@
+<aiml version="2.0">
+    <topic name="Basketball">
+
+      <category>
+        <pattern>^ streetball ^</pattern>
+        <template>
+            Basketball in streetball style is all about creativity and flashy moves. It’s a fast-paced game where style and improvisation matter just as much as skill.
+          <br/>Do you want to learn more:
+          <br/>- Best Players
+          <br/>- Best Teams
+        </template>
+      </category>
+    
+      <category>
+        <pattern>^ professional ^</pattern>
+        <template>
+            Basketball in a professional setting is about strategy and teamwork. Every play is carefully planned to maximize efficiency and outsmart the opponent.
+          <br/>Do you want to learn more:
+          <br/>- Best Players
+          <br/>- Best Teams
+        </template>
+      </category>
+      
+      
+      <category>
+        <pattern>*</pattern>
+        <template>
+          Sorry, I didn't catch that. Can you say again?
+        </template>
+      </category>
+    </topic>
+    </aiml>

@@ -1,0 +1,41 @@
+<aiml version="2.0">
+<topic name="Soccer">
+  <category>
+    <pattern>^ striker ^</pattern>
+    <template>
+        Soccer as a striker is all about speed, precision, and finishing. A great striker can change the outcome of a match with just one perfect shot.
+      <br/>Do you want to learn more:
+      <br/>- Best Players
+      <br/>- Best Teams
+    </template>
+  </category>
+
+  <category>
+    <pattern>^ midflieder ^</pattern>
+    <template>
+        Soccer in the midfield requires vision, passing accuracy, and control. Midfielders are the engine of the team, linking defense and attack seamlessly.
+      <br/>Do you want to learn more:
+      <br/>- Best Players
+      <br/>- Best Teams
+    </template>
+  </category>
+
+  <category>
+    <pattern>^ defender ^</pattern>
+    <template>
+        Soccer as a defender is all about strength, positioning, and tactical awareness. A solid defense is the foundation of any successful team.
+      <br/>Do you want to learn more:
+      <br/>- Best Players
+      <br/>- Best Teams
+    </template>
+  </category>
+  
+  
+  <category>
+    <pattern>*</pattern>
+    <template>
+      Sorry, I didn't catch that. Can you say again?
+    </template>
+  </category>
+</topic>
+</aiml>

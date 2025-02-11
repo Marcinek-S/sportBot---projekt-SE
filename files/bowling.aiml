@@ -1,0 +1,30 @@
+<aiml version="2.0">
+    <topic name="Bowling">
+      <category>
+        <pattern>^ strikes ^</pattern>
+        <template>
+            <set name="topic"><set name="sport">Bowling</set></set>  is all about precision and technique! Everyone has theri own special strategy for getting strikes.
+            <br/>Do you want to learn more:
+            <br/>- Best Players
+        </template>
+      </category>
+
+      <category>
+        <pattern>^ scoring ^</pattern>
+        <template>
+            <set name="topic"><set name="sport">Bowling</set></set> requires consistency and control.
+            <br/>Do you want to learn more:
+            <br/>- Best Players
+        </template>
+      </category>
+      
+      
+      
+      <category>
+        <pattern>*</pattern>
+        <template>
+          Sorry, I didn't catch that. Can you say again?
+        </template>
+      </category>
+    </topic>
+    </aiml>
